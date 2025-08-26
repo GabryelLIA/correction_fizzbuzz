@@ -67,7 +67,7 @@ class TestFizzbuzz:
         for num in multiples_of_15:
             assert output[num - 1] == "FizzBuzz", f"Number {num} should output 'FizzBuzz', got '{output[num - 1]}'"
     
-    # Test that numbers not divisible by 3 or 5 output the number itself.
+    # Test that numbers not divisible by 3 or 5 output the number itself
     def test_regular_numbers(self):
         output = fizzbuzz()
         
